@@ -1,0 +1,26 @@
+nav {
+    color: #777777;
+    float: right;
+    
+    vertical-align: middle;
+    line-height: 75px;
+    
+  }
+
+
+  a:link {
+    color: #777777;
+  }
+  
+  a:visited {
+  color: #4CA8C2;
+  }
+  
+  a:hover {
+    background-color: #4882B8;
+  }
+  
+  a:active {
+    background-color: #48B873;
+  }
+

@@ -1,0 +1,317 @@
+
+html {
+
+  position: relative;
+  min-height; 100%;
+}
+
+
+
+
+/* Background picture on all pages */
+body {
+
+  position: relative;
+background-image: url("../images/interlaced.png");
+
+}
+
+
+
+.header {
+
+  background-color: #ffffff;
+  border-color: #cccccc;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 100%;
+  height: 75px;
+  margin: 0 auto;
+  border-bottom: 2px solid #cccccc;
+
+}
+
+/* Header content area - Name and Menu */
+.headercontent {
+
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+/* Main section title (About Me - Contact Info - Portfolio Headers */
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100px;
+  color: #4aaaa5;
+  border-bottom: 3px solid #cccccc;
+  line-height: 100px;
+  width: auto;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+
+/* My Name - all pages (In Header) */
+#name {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #4aaaa5;
+  font-size: 36px;
+  color: white;
+  width: auto;
+  height: 75px;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  font-weight: bold;
+}
+
+/* Main Div - In between header and footer - all pages */
+.main {
+    margin: auto;
+    color: #777777;
+    font-size: 1em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px;
+
+
+
+}
+
+
+/* About me page main content */
+.myinfo {
+
+  line-height: 1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  margin-top: -6px;
+  /* height: auto; */
+}
+
+/* Portfolio page image section */
+
+.portfolioinfo {
+  margin-left: 20px;
+  height: 750px;
+  padding-bottom: 20px;
+
+}
+
+/* Each image and text pair has it's own container */
+
+.placeholder1 {
+  float: left;
+  padding-bottom: 20px;
+  
+
+  }
+
+
+p.placeholdertitles  {
+z-index: 99;
+font-family: 'Georgia', Times, Times New Roman, serif;
+background-color: #4aaaa5;
+font-size: 14px;
+color: white;
+width: auto;
+position: relative;
+text-align: center;
+vertical-align: middle;
+line-height: 40px;
+bottom: 60px;
+
+}
+
+.placeholder2 {
+float: right;
+padding-right: 30%;
+padding-bottom: 20px;
+
+}
+
+.placeholder3 {
+  clear: both;
+  float: left;
+  padding-bottom: 20px;
+  
+  }
+
+  .placeholder4 {
+    float: right;
+    padding-right: 30%;
+    padding-bottom: 20px;
+    
+    } 
+
+    .placeholder5 {
+      
+      clear: both;
+       float: left;
+      padding-bottom: 20px;
+      
+      }
+  
+/* End of Portfolio section */
+
+
+/* For Picture of myself on About Page */
+#headshot {
+  float: left;
+  width: 150px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+  .headercontent {
+
+    width: auto;
+    margin: 0 auto;
+  
+  }
+
+  .main {
+    margin: auto;
+    color: #777777;
+    font-size: 1em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: auto;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+  @media screen and (max-width: 768px) {
+    .headercontent {
+
+      width: auto;
+      margin: 0 auto;
+    
+    }
+
+    .main {
+      margin: auto;
+      color: #777777;
+      font-size: 1em;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      width: auto;
+      border: 1px solid #dddddd;
+      background-color: #ffffff;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      position: relative;
+      min-height: 100%;
+      padding-bottom: 50px;
+  
+  
+  
+  }
+
+  .portfolioinfo {
+    margin-left: 20px;
+    height: 1150px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .placeholder2 {
+    float: left;
+    padding-right: 30%;
+    padding-bottom: 20px;
+    
+    }
+    
+
+    .placeholder4 {
+      float: left;
+      padding-right: 30%;
+      padding-bottom: 20px;
+      
+      } 
+
+
+  }
+
+
+
+    @media screen and (max-width: 640px) {
+      .headercontent {
+
+        width: auto;
+        margin: 0 auto;
+      
+      }
+
+      .main {
+        margin: auto;
+        color: #777777;
+        font-size: 1em;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        width: auto;
+        border: 1px solid #dddddd;
+        background-color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        position: relative;
+        min-height: 100%;
+        padding-bottom: 50px;
+    
+    
+    
+    }
+    
+    .placeholder2 {
+      float: left;
+      padding-right: 30%;
+      padding-bottom: 20px;
+      
+      }
+      
+      .placeholder4 {
+        float: left;
+        padding-right: 30%;
+        padding-bottom: 20px;
+        
+        } 
+  
+
+    }
